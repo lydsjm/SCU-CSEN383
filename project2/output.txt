@@ -1,0 +1,1312 @@
+========== Scheduler Suite ==========
+Jobs per run: 26 | Seeds: 101 202 303 404 505
+
+----- FCFS -----
+===== RUN 1 (seed=101, jobs=26) - FCFS (non-preemptive) =====
+Created processes (sorted by arrival):
+Name  Arr  Serv  Prio
+  X      4     9    4
+  A      7     9    2
+  O      9     5    3
+  F     12     9    2
+  P     16     8    1
+  M     18     8    4
+  K     20     5    3
+  V     20     9    3
+  Q     25    10    3
+  H     26     7    3
+  N     29    10    4
+  U     45     7    2
+  Z     52     9    2
+  G     54     1    2
+  W     55     6    4
+  C     56     3    4
+  I     65     3    1
+  T     66     4    2
+  Y     66    10    3
+  J     76     3    2
+  S     76     9    2
+  L     79     3    3
+  D     91     5    2
+  E     91     2    1
+  B     96    10    3
+  R     97     1    4
+
+Time chart (100+ quanta, '-' = idle):
+--XXXXXXXXXAAAAAAAAAOOOOOFFFFFFFFFPPPPPPPPMMMMMMMMKKKKKVVVVVVVVVQQQQQQQQQQHHHHHHHNNNNNNNNNNUUUUUUUZZZZZZZZZ
+
+Per-run stats over processes that actually ran (start < 100):
+  Completed: 13
+  Elapsed quanta: 107
+  Avg Turnaround (TAT): 36.231
+  Avg Waiting   (WT):  28.154
+  Avg Response  (RPT): 28.154
+  Throughput (completed/elapsed): 0.1215
+  Max consecutive idle quanta (info): 2
+
+===== RUN 2 (seed=202, jobs=26) - FCFS (non-preemptive) =====
+Created processes (sorted by arrival):
+Name  Arr  Serv  Prio
+  Q      3     9    1
+  X      8    10    4
+  L     11     5    1
+  N     11     2    3
+  A     14     7    3
+  F     24    10    4
+  I     30     5    1
+  P     32     8    1
+  E     35     3    1
+  V     40    10    2
+  H     52     3    2
+  J     52     5    4
+  S     52    10    3
+  Z     57     7    3
+  G     61     4    3
+  W     63     1    4
+  C     65     8    4
+  O     71     9    2
+  D     82     2    3
+  T     85    10    3
+  Y     85     9    2
+  M     89     5    3
+  U     90     6    3
+  B     92     2    1
+  K     93     2    2
+  R     94     1    4
+
+Time chart (100+ quanta, '-' = idle):
+--QQQQQQQQQXXXXXXXXXXLLLLLNNAAAAAAAFFFFFFFFFFIIIIIPPPPPPPPEEEVVVVVVVVVVHHHJJJJJSSSSSSSSSSZZZZZZZGGGG
+
+Per-run stats over processes that actually ran (start < 100):
+  Completed: 15
+  Elapsed quanta: 100
+  Avg Turnaround (TAT): 24.200
+  Avg Waiting   (WT):  17.667
+  Avg Response  (RPT): 17.667
+  Throughput (completed/elapsed): 0.1500
+  Max consecutive idle quanta (info): 2
+
+===== RUN 3 (seed=303, jobs=26) - FCFS (non-preemptive) =====
+Created processes (sorted by arrival):
+Name  Arr  Serv  Prio
+  P      1     8    2
+  Y      4     8    4
+  A     21     5    4
+  D     26     9    1
+  J     28     7    2
+  Q     28     8    4
+  S     28     1    4
+  H     31     2    1
+  O     33     3    1
+  L     43    10    3
+  I     48     7    1
+  T     51     6    4
+  M     60     5    2
+  V     60     8    1
+  Z     62     5    4
+  X     65     8    4
+  K     66     9    4
+  G     68     7    4
+  W     71     6    4
+  C     74    10    3
+  E     79     7    2
+  B     88     4    3
+  U     88     5    4
+  F     89     1    2
+  R     91     1    4
+  N     93     4    2
+
+Time chart (100+ quanta, '-' = idle):
+-PPPPPPPPYYYYYYYY--AAAAA--DDDDDDDDDJJJJJJJQQQQQQQQSHHOOOLLLLLLLLLLIIIIIIITTTTTTMMMMMVVVVVVVVZZZZZXXXXXXXX
+
+Per-run stats over processes that actually ran (start < 100):
+  Completed: 16
+  Elapsed quanta: 105
+  Avg Turnaround (TAT): 21.625
+  Avg Waiting   (WT):  15.375
+  Avg Response  (RPT): 15.375
+  Throughput (completed/elapsed): 0.1524
+  Max consecutive idle quanta (info): 2
+
+===== RUN 4 (seed=404, jobs=26) - FCFS (non-preemptive) =====
+Created processes (sorted by arrival):
+Name  Arr  Serv  Prio
+  F      1     2    4
+  J      4     9    4
+  Q      6     7    2
+  I     13     9    2
+  D     17     3    2
+  P     17     8    2
+  G     22    10    1
+  E     23     8    2
+  Y     23    10    3
+  A     28     6    2
+  M     31     2    1
+  U     33     4    1
+  B     37     6    1
+  K     39     6    3
+  R     41     1    4
+  H     57     8    4
+  S     57     2    1
+  Z     67     3    1
+  X     69     9    4
+  T     70     2    1
+  L     75     2    1
+  N     75     6    1
+  W     79     1    3
+  V     80     9    4
+  C     83     5    3
+  O     95     7    4
+
+Time chart (100+ quanta, '-' = idle):
+-FF-JJJJJJJJJQQQQQQQIIIIIIIIIDDDPPPPPPPPGGGGGGGGGGEEEEEEEEYYYYYYYYYYAAAAAAMMUUUUBBBBBBKKKKKKRHHHHHHHH
+
+Per-run stats over processes that actually ran (start < 100):
+  Completed: 16
+  Elapsed quanta: 101
+  Avg Turnaround (TAT): 32.688
+  Avg Waiting   (WT):  26.500
+  Avg Response  (RPT): 26.500
+  Throughput (completed/elapsed): 0.1584
+  Max consecutive idle quanta (info): 1
+
+===== RUN 5 (seed=505, jobs=26) - FCFS (non-preemptive) =====
+Created processes (sorted by arrival):
+Name  Arr  Serv  Prio
+  M      2     9    4
+  K     12     3    1
+  X     26     7    3
+  G     29    10    2
+  I     31     4    2
+  Q     31     6    1
+  B     33     8    3
+  P     33     5    2
+  S     33     3    2
+  A     35     4    3
+  R     38     1    3
+  C     39     7    3
+  Y     42     9    1
+  V     53    10    3
+  L     54     4    3
+  N     57     8    1
+  O     57     1    3
+  D     61    10    4
+  F     66    10    1
+  E     67     2    2
+  Z     72     1    2
+  U     78     3    2
+  J     80     1    2
+  H     83     7    3
+  W     87     6    3
+  T     89     8    2
+
+Time chart (100+ quanta, '-' = idle):
+--MMMMMMMMM-KKK--XXXXXXX--GGGGGGGGGGIIIIQQQQQQBBBBBBBBPPPPPSSSAAAARCCCCCCCYYYYYYYYYVVVVVVVVVVLLLLNNNNNNNN
+
+Per-run stats over processes that actually ran (start < 100):
+  Completed: 16
+  Elapsed quanta: 105
+  Avg Turnaround (TAT): 24.750
+  Avg Waiting   (WT):  18.625
+  Avg Response  (RPT): 18.625
+  Throughput (completed/elapsed): 0.1524
+  Max consecutive idle quanta (info): 2
+
+===== 5-RUN AVERAGES (FCFS) =====
+Avg of Avg TAT: 27.899
+Avg of Avg WT : 21.264
+Avg of Avg RPT: 21.264
+Avg Throughput: 0.1469
+=================================
+
+----- SJF (non-preemptive) -----
+===== RUN 1 (seed=101, jobs=26) - SJF (non-preemptive) =====
+Created processes (sorted by arrival):
+Name  Arr  Serv  Prio
+  X      4     9    4
+  A      7     9    2
+  O      9     5    3
+  F     12     9    2
+  P     16     8    1
+  M     18     8    4
+  K     20     5    3
+  V     20     9    3
+  Q     25    10    3
+  H     26     7    3
+  N     29    10    4
+  U     45     7    2
+  Z     52     9    2
+  G     54     1    2
+  W     55     6    4
+  C     56     3    4
+  I     65     3    1
+  T     66     4    2
+  Y     66    10    3
+  J     76     3    2
+  S     76     9    2
+  L     79     3    3
+  D     91     5    2
+  E     91     2    1
+  B     96    10    3
+  R     97     1    4
+
+Time chart (100+ quanta, '-' = idle):
+--XXXXXXXXXOOOOOPPPPPPPPKKKKKHHHHHHHMMMMMMMMAAAAAAAAAUUUUUUUGCCCWWWWWWIIITTTTJJJLLLFFFFFFFFFEEDDDDDR
+
+Per-run stats over processes that actually ran (start < 100):
+  Completed: 19
+  Elapsed quanta: 100
+  Avg Turnaround (TAT): 14.789
+  Avg Waiting   (WT):  9.632
+  Avg Response  (RPT): 9.632
+  Throughput (completed/elapsed): 0.1900
+  Max consecutive idle quanta (info): 2
+
+===== RUN 2 (seed=202, jobs=26) - SJF (non-preemptive) =====
+Created processes (sorted by arrival):
+Name  Arr  Serv  Prio
+  Q      3     9    1
+  X      8    10    4
+  L     11     5    1
+  N     11     2    3
+  A     14     7    3
+  F     24    10    4
+  I     30     5    1
+  P     32     8    1
+  E     35     3    1
+  V     40    10    2
+  H     52     3    2
+  J     52     5    4
+  S     52    10    3
+  Z     57     7    3
+  G     61     4    3
+  W     63     1    4
+  C     65     8    4
+  O     71     9    2
+  D     82     2    3
+  T     85    10    3
+  Y     85     9    2
+  M     89     5    3
+  U     90     6    3
+  B     92     2    1
+  K     93     2    2
+  R     94     1    4
+
+Time chart (100+ quanta, '-' = idle):
+--QQQQQQQQQNNLLLLLAAAAAAAXXXXXXXXXXEEEIIIIIPPPPPPPPFFFFFFFFFFHHHWGGGGJJJJJZZZZZZZCCCCCCCCDDMMMMMRBBKK
+
+Per-run stats over processes that actually ran (start < 100):
+  Completed: 20
+  Elapsed quanta: 101
+  Avg Turnaround (TAT): 12.700
+  Avg Waiting   (WT):  7.750
+  Avg Response  (RPT): 7.750
+  Throughput (completed/elapsed): 0.1980
+  Max consecutive idle quanta (info): 2
+
+===== RUN 3 (seed=303, jobs=26) - SJF (non-preemptive) =====
+Created processes (sorted by arrival):
+Name  Arr  Serv  Prio
+  P      1     8    2
+  Y      4     8    4
+  A     21     5    4
+  D     26     9    1
+  J     28     7    2
+  Q     28     8    4
+  S     28     1    4
+  H     31     2    1
+  O     33     3    1
+  L     43    10    3
+  I     48     7    1
+  T     51     6    4
+  M     60     5    2
+  V     60     8    1
+  Z     62     5    4
+  X     65     8    4
+  K     66     9    4
+  G     68     7    4
+  W     71     6    4
+  C     74    10    3
+  E     79     7    2
+  B     88     4    3
+  U     88     5    4
+  F     89     1    2
+  R     91     1    4
+  N     93     4    2
+
+Time chart (100+ quanta, '-' = idle):
+-PPPPPPPPYYYYYYYY--AAAAA--DDDDDDDDDSHHOOOJJJJJJJIIIIIIITTTTTTMMMMMZZZZZWWWWWWGGGGGGGEEEEEEEFRBBBBNNNN
+
+Per-run stats over processes that actually ran (start < 100):
+  Completed: 19
+  Elapsed quanta: 101
+  Avg Turnaround (TAT): 8.737
+  Avg Waiting   (WT):  3.684
+  Avg Response  (RPT): 3.684
+  Throughput (completed/elapsed): 0.1881
+  Max consecutive idle quanta (info): 2
+
+===== RUN 4 (seed=404, jobs=26) - SJF (non-preemptive) =====
+Created processes (sorted by arrival):
+Name  Arr  Serv  Prio
+  F      1     2    4
+  J      4     9    4
+  Q      6     7    2
+  I     13     9    2
+  D     17     3    2
+  P     17     8    2
+  G     22    10    1
+  E     23     8    2
+  Y     23    10    3
+  A     28     6    2
+  M     31     2    1
+  U     33     4    1
+  B     37     6    1
+  K     39     6    3
+  R     41     1    4
+  H     57     8    4
+  S     57     2    1
+  Z     67     3    1
+  X     69     9    4
+  T     70     2    1
+  L     75     2    1
+  N     75     6    1
+  W     79     1    3
+  V     80     9    4
+  C     83     5    3
+  O     95     7    4
+
+Time chart (100+ quanta, '-' = idle):
+-FF-JJJJJJJJJQQQQQQQDDDPPPPPPPPMMUUUUAAAAAARBBBBBBKKKKKKEEEEEEEESSHHHHHHHHTTLLZZZWNNNNNNCCCCCIIIIIIIII
+
+Per-run stats over processes that actually ran (start < 100):
+  Completed: 21
+  Elapsed quanta: 102
+  Avg Turnaround (TAT): 14.476
+  Avg Waiting   (WT):  9.714
+  Avg Response  (RPT): 9.714
+  Throughput (completed/elapsed): 0.2059
+  Max consecutive idle quanta (info): 1
+
+===== RUN 5 (seed=505, jobs=26) - SJF (non-preemptive) =====
+Created processes (sorted by arrival):
+Name  Arr  Serv  Prio
+  M      2     9    4
+  K     12     3    1
+  X     26     7    3
+  G     29    10    2
+  I     31     4    2
+  Q     31     6    1
+  B     33     8    3
+  P     33     5    2
+  S     33     3    2
+  A     35     4    3
+  R     38     1    3
+  C     39     7    3
+  Y     42     9    1
+  V     53    10    3
+  L     54     4    3
+  N     57     8    1
+  O     57     1    3
+  D     61    10    4
+  F     66    10    1
+  E     67     2    2
+  Z     72     1    2
+  U     78     3    2
+  J     80     1    2
+  H     83     7    3
+  W     87     6    3
+  T     89     8    2
+
+Time chart (100+ quanta, '-' = idle):
+--MMMMMMMMM-KKK--XXXXXXX--GGGGGGGGGGSSSRIIIIAAAAPPPPPQQQQQQOLLLLCCCCCCCEEZBBBBBBBBJUUUHHHHHHHWWWWWWNNNNNNNN
+
+Per-run stats over processes that actually ran (start < 100):
+  Completed: 21
+  Elapsed quanta: 107
+  Avg Turnaround (TAT): 14.095
+  Avg Waiting   (WT):  9.333
+  Avg Response  (RPT): 9.333
+  Throughput (completed/elapsed): 0.1963
+  Max consecutive idle quanta (info): 2
+
+===== 5-RUN AVERAGES (SJF) =====
+Avg of Avg TAT: 12.960
+Avg of Avg WT : 8.023
+Avg of Avg RPT: 8.023
+Avg Throughput: 0.1957
+=================================
+
+----- SRT (preemptive SJF) -----
+===== RUN 1 (seed=101, jobs=26) - SRT (preemptive SJF) =====
+Created processes (sorted by arrival):
+Name  Arr  Serv  Prio
+  X      4     9    4
+  A      7     9    2
+  O      9     5    3
+  F     12     9    2
+  P     16     8    1
+  M     18     8    4
+  K     20     5    3
+  V     20     9    3
+  Q     25    10    3
+  H     26     7    3
+  N     29    10    4
+  U     45     7    2
+  Z     52     9    2
+  G     54     1    2
+  W     55     6    4
+  C     56     3    4
+  I     65     3    1
+  T     66     4    2
+  Y     66    10    3
+  J     76     3    2
+  S     76     9    2
+  L     79     3    3
+  D     91     5    2
+  E     91     2    1
+  B     96    10    3
+  R     97     1    4
+
+Time chart (100+ quanta, '-' = idle):
+--XXXXXXXXXOOOOOPPPPPPPPKKKKKHHHHHHHMMMMMMMMAUUUUUUUAAGACCCAAAAAWIIITTTTWWWWWJJJLLLFFFFFFFFFEEDDDRDD
+
+Per-run stats over processes that actually ran (start < 100):
+  Completed: 19
+  Elapsed quanta: 100
+  Avg Turnaround (TAT): 14.158
+  Avg Waiting   (WT):  9.000
+  Avg Response  (RPT): 8.000
+  Throughput (completed/elapsed): 0.1900
+  Max consecutive idle quanta (info): 2
+
+===== RUN 2 (seed=202, jobs=26) - SRT (preemptive SJF) =====
+Created processes (sorted by arrival):
+Name  Arr  Serv  Prio
+  Q      3     9    1
+  X      8    10    4
+  L     11     5    1
+  N     11     2    3
+  A     14     7    3
+  F     24    10    4
+  I     30     5    1
+  P     32     8    1
+  E     35     3    1
+  V     40    10    2
+  H     52     3    2
+  J     52     5    4
+  S     52    10    3
+  Z     57     7    3
+  G     61     4    3
+  W     63     1    4
+  C     65     8    4
+  O     71     9    2
+  D     82     2    3
+  T     85    10    3
+  Y     85     9    2
+  M     89     5    3
+  U     90     6    3
+  B     92     2    1
+  K     93     2    2
+  R     94     1    4
+
+Time chart (100+ quanta, '-' = idle):
+--QQQQQQQQQNNLLLLLAAAAAAAXXXXXXXXXXEEEIIIIIPPPPPPPPFHHHJJJJJZGGWGGZZZZZZCCCCCCCCFFDDFFFFFFFMBBRKKMMMM
+
+Per-run stats over processes that actually ran (start < 100):
+  Completed: 20
+  Elapsed quanta: 101
+  Avg Turnaround (TAT): 11.300
+  Avg Waiting   (WT):  6.350
+  Avg Response  (RPT): 4.300
+  Throughput (completed/elapsed): 0.1980
+  Max consecutive idle quanta (info): 2
+
+===== RUN 3 (seed=303, jobs=26) - SRT (preemptive SJF) =====
+Created processes (sorted by arrival):
+Name  Arr  Serv  Prio
+  P      1     8    2
+  Y      4     8    4
+  A     21     5    4
+  D     26     9    1
+  J     28     7    2
+  Q     28     8    4
+  S     28     1    4
+  H     31     2    1
+  O     33     3    1
+  L     43    10    3
+  I     48     7    1
+  T     51     6    4
+  M     60     5    2
+  V     60     8    1
+  Z     62     5    4
+  X     65     8    4
+  K     66     9    4
+  G     68     7    4
+  W     71     6    4
+  C     74    10    3
+  E     79     7    2
+  B     88     4    3
+  U     88     5    4
+  F     89     1    2
+  R     91     1    4
+  N     93     4    2
+
+Time chart (100+ quanta, '-' = idle):
+-PPPPPPPPYYYYYYYY--AAAAA--DDSDDHHOOODDDDDJJJJJJJIIIIIIITTTTTTMMMMMZZZZZWWWWWWGGGGGGGEEEEEFEERBBBBNNNN
+
+Per-run stats over processes that actually ran (start < 100):
+  Completed: 19
+  Elapsed quanta: 101
+  Avg Turnaround (TAT): 8.105
+  Avg Waiting   (WT):  3.053
+  Avg Response  (RPT): 2.684
+  Throughput (completed/elapsed): 0.1881
+  Max consecutive idle quanta (info): 2
+
+===== RUN 4 (seed=404, jobs=26) - SRT (preemptive SJF) =====
+Created processes (sorted by arrival):
+Name  Arr  Serv  Prio
+  F      1     2    4
+  J      4     9    4
+  Q      6     7    2
+  I     13     9    2
+  D     17     3    2
+  P     17     8    2
+  G     22    10    1
+  E     23     8    2
+  Y     23    10    3
+  A     28     6    2
+  M     31     2    1
+  U     33     4    1
+  B     37     6    1
+  K     39     6    3
+  R     41     1    4
+  H     57     8    4
+  S     57     2    1
+  Z     67     3    1
+  X     69     9    4
+  T     70     2    1
+  L     75     2    1
+  N     75     6    1
+  W     79     1    3
+  V     80     9    4
+  C     83     5    3
+  O     95     7    4
+
+Time chart (100+ quanta, '-' = idle):
+-FF-JJJJJJJJJQQQQQQQDDDPPPPPPPPMMUUUUAAAARAABBBBBBKKKKKKESSEEEEEEEHZZZTTHHHLLHHWHHNNNNNNCCCCCIIIIIIIII
+
+Per-run stats over processes that actually ran (start < 100):
+  Completed: 21
+  Elapsed quanta: 102
+  Avg Turnaround (TAT): 13.714
+  Avg Waiting   (WT):  8.952
+  Avg Response  (RPT): 8.429
+  Throughput (completed/elapsed): 0.2059
+  Max consecutive idle quanta (info): 1
+
+===== RUN 5 (seed=505, jobs=26) - SRT (preemptive SJF) =====
+Created processes (sorted by arrival):
+Name  Arr  Serv  Prio
+  M      2     9    4
+  K     12     3    1
+  X     26     7    3
+  G     29    10    2
+  I     31     4    2
+  Q     31     6    1
+  B     33     8    3
+  P     33     5    2
+  S     33     3    2
+  A     35     4    3
+  R     38     1    3
+  C     39     7    3
+  Y     42     9    1
+  V     53    10    3
+  L     54     4    3
+  N     57     8    1
+  O     57     1    3
+  D     61    10    4
+  F     66    10    1
+  E     67     2    2
+  Z     72     1    2
+  U     78     3    2
+  J     80     1    2
+  H     83     7    3
+  W     87     6    3
+  T     89     8    2
+
+Time chart (100+ quanta, '-' = idle):
+--MMMMMMMMM-KKK--XXXXXXX--GGGGGIIIISSSRAAAAGGGGGPPPPPQLLLLOQQQQQCCCEECCCCZBBBBUUUJBBBBHHHHHHHWWWWWWNNNNNNNN
+
+Per-run stats over processes that actually ran (start < 100):
+  Completed: 21
+  Elapsed quanta: 107
+  Avg Turnaround (TAT): 13.619
+  Avg Waiting   (WT):  8.857
+  Avg Response  (RPT): 7.762
+  Throughput (completed/elapsed): 0.1963
+  Max consecutive idle quanta (info): 2
+
+===== 5-RUN AVERAGES (SRT) =====
+Avg of Avg TAT: 12.179
+Avg of Avg WT : 7.242
+Avg of Avg RPT: 6.235
+Avg Throughput: 0.1957
+=================================
+
+----- RR (q=1) -----
+===== RUN 1 (seed=101, jobs=26) - RR (preemptive) (q=1) =====
+Created processes (sorted by arrival):
+Name  Arr  Serv  Prio
+  X      4     9    4
+  A      7     9    2
+  O      9     5    3
+  F     12     9    2
+  P     16     8    1
+  M     18     8    4
+  K     20     5    3
+  V     20     9    3
+  Q     25    10    3
+  H     26     7    3
+  N     29    10    4
+  U     45     7    2
+  Z     52     9    2
+  G     54     1    2
+  W     55     6    4
+  C     56     3    4
+  I     65     3    1
+  T     66     4    2
+  Y     66    10    3
+  J     76     3    2
+  S     76     9    2
+  L     79     3    3
+  D     91     5    2
+  E     91     2    1
+  B     96    10    3
+  R     97     1    4
+
+Time chart (100+ quanta, '-' = idle):
+----XXXXAXAOXAOFXAOFPXAMOFKVPXAMOQFHKVPNAMQFHKVPNAMQFHUKVPNAMQZFHGUWKCVPNMQZFHITYUWCVPNMQZJSFHILTYUWCVPNMQZJDESHILBTRYUWVNQZJDESLBTYUWVNQZDSBYUWNQZDSBYNZDSBYZSBYSBYSBYBB
+
+Per-run stats over processes that actually ran (start < 100):
+  Completed: 26
+  Elapsed quanta: 169
+  Avg Turnaround (TAT): 69.077
+  Avg Waiting   (WT):  62.731
+  Avg Response  (RPT): 10.269
+  Throughput (completed/elapsed): 0.1538
+  Max consecutive idle quanta (info): 4
+
+===== RUN 2 (seed=202, jobs=26) - RR (preemptive) (q=1) =====
+Created processes (sorted by arrival):
+Name  Arr  Serv  Prio
+  Q      3     9    1
+  X      8    10    4
+  L     11     5    1
+  N     11     2    3
+  A     14     7    3
+  F     24    10    4
+  I     30     5    1
+  P     32     8    1
+  E     35     3    1
+  V     40    10    2
+  H     52     3    2
+  J     52     5    4
+  S     52    10    3
+  Z     57     7    3
+  G     61     4    3
+  W     63     1    4
+  C     65     8    4
+  O     71     9    2
+  D     82     2    3
+  T     85    10    3
+  Y     85     9    2
+  M     89     5    3
+  U     90     6    3
+  B     92     2    1
+  K     93     2    2
+  R     94     1    4
+
+Time chart (100+ quanta, '-' = idle):
+---QQQQQQXQXQLNXQLANXLAXLAXFLAXFAIXFPAIXEFPAIXVEFPIVEFPIVHJSFPVZHJSFGPVWZHCJSFGPVOZCJSFGPVODZCJTYSGMVUODBZKCRTYSMVUOBZKCTYSMVUOZCTYSMUOCTYSMUOCTYSUOTYOTYTYT
+
+Per-run stats over processes that actually ran (start < 100):
+  Completed: 26
+  Elapsed quanta: 156
+  Avg Turnaround (TAT): 43.462
+  Avg Waiting   (WT):  37.577
+  Avg Response  (RPT): 6.885
+  Throughput (completed/elapsed): 0.1667
+  Max consecutive idle quanta (info): 3
+
+===== RUN 3 (seed=303, jobs=26) - RR (preemptive) (q=1) =====
+Created processes (sorted by arrival):
+Name  Arr  Serv  Prio
+  P      1     8    2
+  Y      4     8    4
+  A     21     5    4
+  D     26     9    1
+  J     28     7    2
+  Q     28     8    4
+  S     28     1    4
+  H     31     2    1
+  O     33     3    1
+  L     43    10    3
+  I     48     7    1
+  T     51     6    4
+  M     60     5    2
+  V     60     8    1
+  Z     62     5    4
+  X     65     8    4
+  K     66     9    4
+  G     68     7    4
+  W     71     6    4
+  C     74    10    3
+  E     79     7    2
+  B     88     4    3
+  U     88     5    4
+  F     89     1    2
+  R     91     1    4
+  N     93     4    2
+
+Time chart (100+ quanta, '-' = idle):
+-PPPPYPYPYPYPYYYY----AAAAADDDJQSDJQHDOJQHDOJQDOLJQDLIJQDTLIJQTLIMVQTZLIMXVKTGZLIWMXVCKTGZLEIWMXVCKTGBUZFLERIWNMXVCKGBUZLEWNXVCKGBULEWNXVCKGBUEWNXVCKGUEXCKECKCC
+
+Per-run stats over processes that actually ran (start < 100):
+  Completed: 26
+  Elapsed quanta: 159
+  Avg Turnaround (TAT): 47.577
+  Avg Waiting   (WT):  41.654
+  Avg Response  (RPT): 6.385
+  Throughput (completed/elapsed): 0.1635
+  Max consecutive idle quanta (info): 4
+
+===== RUN 4 (seed=404, jobs=26) - RR (preemptive) (q=1) =====
+Created processes (sorted by arrival):
+Name  Arr  Serv  Prio
+  F      1     2    4
+  J      4     9    4
+  Q      6     7    2
+  I     13     9    2
+  D     17     3    2
+  P     17     8    2
+  G     22    10    1
+  E     23     8    2
+  Y     23    10    3
+  A     28     6    2
+  M     31     2    1
+  U     33     4    1
+  B     37     6    1
+  K     39     6    3
+  R     41     1    4
+  H     57     8    4
+  S     57     2    1
+  Z     67     3    1
+  X     69     9    4
+  T     70     2    1
+  L     75     2    1
+  N     75     6    1
+  W     79     1    3
+  V     80     9    4
+  C     83     5    3
+  O     95     7    4
+
+Time chart (100+ quanta, '-' = idle):
+-FF-JJJQJQJQJQJIQJIQDPJIQDPGEYIDPGAEYIMPUGAEYBIMKPURGAEYBIKPUGAEYBHSIKPUGAEYBHZSIXKTPGAELNYBHZWVXKCTGELNYBHZOVXKCGNYHOVXCGNYHOVXCNHOVXCNHOVXOVXOVXV
+
+Per-run stats over processes that actually ran (start < 100):
+  Completed: 26
+  Elapsed quanta: 147
+  Avg Turnaround (TAT): 48.577
+  Avg Waiting   (WT):  43.000
+  Avg Response  (RPT): 8.192
+  Throughput (completed/elapsed): 0.1769
+  Max consecutive idle quanta (info): 1
+
+===== RUN 5 (seed=505, jobs=26) - RR (preemptive) (q=1) =====
+Created processes (sorted by arrival):
+Name  Arr  Serv  Prio
+  M      2     9    4
+  K     12     3    1
+  X     26     7    3
+  G     29    10    2
+  I     31     4    2
+  Q     31     6    1
+  B     33     8    3
+  P     33     5    2
+  S     33     3    2
+  A     35     4    3
+  R     38     1    3
+  C     39     7    3
+  Y     42     9    1
+  V     53    10    3
+  L     54     4    3
+  N     57     8    1
+  O     57     1    3
+  D     61    10    4
+  F     66    10    1
+  E     67     2    2
+  Z     72     1    2
+  U     78     3    2
+  J     80     1    2
+  H     83     7    3
+  W     87     6    3
+  T     89     8    2
+
+Time chart (100+ quanta, '-' = idle):
+--MMMMMMMMM-KKK-----------XXXXGXGIQXGBPSIQAXGBRPCSIQYAGBPCSIQYVALGBPNOCQDYVALGFBEPNCQZDYVLGUFBJENHCDWYVTLGUFBNHCDWYVTGUFBNHCDWYVTFNHDWYVTFNHDWYVTFNHDWVTFHDVTFDTF
+
+Per-run stats over processes that actually ran (start < 100):
+  Completed: 26
+  Elapsed quanta: 161
+  Avg Turnaround (TAT): 52.115
+  Avg Waiting   (WT):  46.462
+  Avg Response  (RPT): 8.231
+  Throughput (completed/elapsed): 0.1615
+  Max consecutive idle quanta (info): 11
+
+===== 5-RUN AVERAGES (RR) =====
+Avg of Avg TAT: 52.162
+Avg of Avg WT : 46.285
+Avg of Avg RPT: 7.992
+Avg Throughput: 0.1645
+=================================
+
+----- HPF (highest priority first) (non-preemptive) -----
+===== RUN 1 (seed=101, jobs=26) - HPF (non-preemptive) =====
+Created processes (sorted by arrival):
+Name  Arr  Serv  Prio
+  X      4     9    4
+  A      7     9    2
+  O      9     5    3
+  F     12     9    2
+  P     16     8    1
+  M     18     8    4
+  K     20     5    3
+  V     20     9    3
+  Q     25    10    3
+  H     26     7    3
+  N     29    10    4
+  U     45     7    2
+  Z     52     9    2
+  G     54     1    2
+  W     55     6    4
+  C     56     3    4
+  I     65     3    1
+  T     66     4    2
+  Y     66    10    3
+  J     76     3    2
+  S     76     9    2
+  L     79     3    3
+  D     91     5    2
+  E     91     2    1
+  B     96    10    3
+  R     97     1    4
+
+Time chart (100+ quanta, '-' = idle):
+--XXXXXXXXXAAAAAAAAAPPPPPPPPFFFFFFFFFOOOOOKKKKKUUUUUUUZZZZZZZZZGVVVVVVVVVIIITTTTJJJSSSSSSSSSEEDDDDDQQQQQQQQQQ
+
+Per-run stats over processes that actually ran (start < 100):
+  Completed: 17
+  Elapsed quanta: 109
+  Avg Turnaround (TAT): 20.294
+  Avg Waiting   (WT):  14.000
+  Avg Response  (RPT): 14.000
+  Throughput (completed/elapsed): 0.1560
+  Max consecutive idle quanta (info): 2
+
+===== RUN 2 (seed=202, jobs=26) - HPF (non-preemptive) =====
+Created processes (sorted by arrival):
+Name  Arr  Serv  Prio
+  Q      3     9    1
+  X      8    10    4
+  L     11     5    1
+  N     11     2    3
+  A     14     7    3
+  F     24    10    4
+  I     30     5    1
+  P     32     8    1
+  E     35     3    1
+  V     40    10    2
+  H     52     3    2
+  J     52     5    4
+  S     52    10    3
+  Z     57     7    3
+  G     61     4    3
+  W     63     1    4
+  C     65     8    4
+  O     71     9    2
+  D     82     2    3
+  T     85    10    3
+  Y     85     9    2
+  M     89     5    3
+  U     90     6    3
+  B     92     2    1
+  K     93     2    2
+  R     94     1    4
+
+Time chart (100+ quanta, '-' = idle):
+--QQQQQQQQQLLLLLNNAAAAAAAXXXXXXXXXXIIIIIPPPPPPPPEEEVVVVVVVVVVHHHSSSSSSSSSSOOOOOOOOOZZZZZZZYYYYYYYYYBB
+
+Per-run stats over processes that actually ran (start < 100):
+  Completed: 15
+  Elapsed quanta: 101
+  Avg Turnaround (TAT): 14.933
+  Avg Waiting   (WT):  8.333
+  Avg Response  (RPT): 8.333
+  Throughput (completed/elapsed): 0.1485
+  Max consecutive idle quanta (info): 2
+
+===== RUN 3 (seed=303, jobs=26) - HPF (non-preemptive) =====
+Created processes (sorted by arrival):
+Name  Arr  Serv  Prio
+  P      1     8    2
+  Y      4     8    4
+  A     21     5    4
+  D     26     9    1
+  J     28     7    2
+  Q     28     8    4
+  S     28     1    4
+  H     31     2    1
+  O     33     3    1
+  L     43    10    3
+  I     48     7    1
+  T     51     6    4
+  M     60     5    2
+  V     60     8    1
+  Z     62     5    4
+  X     65     8    4
+  K     66     9    4
+  G     68     7    4
+  W     71     6    4
+  C     74    10    3
+  E     79     7    2
+  B     88     4    3
+  U     88     5    4
+  F     89     1    2
+  R     91     1    4
+  N     93     4    2
+
+Time chart (100+ quanta, '-' = idle):
+-PPPPPPPPYYYYYYYY--AAAAA--DDDDDDDDDHHOOOJJJJJJJLLLLLLLLLLIIIIIIIVVVVVVVVMMMMMCCCCCCCCCCEEEEEEEFNNNNBBBB
+
+Per-run stats over processes that actually ran (start < 100):
+  Completed: 16
+  Elapsed quanta: 103
+  Avg Turnaround (TAT): 11.312
+  Avg Waiting   (WT):  5.188
+  Avg Response  (RPT): 5.188
+  Throughput (completed/elapsed): 0.1553
+  Max consecutive idle quanta (info): 2
+
+===== RUN 4 (seed=404, jobs=26) - HPF (non-preemptive) =====
+Created processes (sorted by arrival):
+Name  Arr  Serv  Prio
+  F      1     2    4
+  J      4     9    4
+  Q      6     7    2
+  I     13     9    2
+  D     17     3    2
+  P     17     8    2
+  G     22    10    1
+  E     23     8    2
+  Y     23    10    3
+  A     28     6    2
+  M     31     2    1
+  U     33     4    1
+  B     37     6    1
+  K     39     6    3
+  R     41     1    4
+  H     57     8    4
+  S     57     2    1
+  Z     67     3    1
+  X     69     9    4
+  T     70     2    1
+  L     75     2    1
+  N     75     6    1
+  W     79     1    3
+  V     80     9    4
+  C     83     5    3
+  O     95     7    4
+
+Time chart (100+ quanta, '-' = idle):
+-FF-JJJJJJJJJQQQQQQQIIIIIIIIIGGGGGGGGGGMMUUUUBBBBBBDDDPPPPPPPPSSEEEEEEEEZZZTTLLNNNNNNAAAAAAYYYYYYYYYY
+
+Per-run stats over processes that actually ran (start < 100):
+  Completed: 18
+  Elapsed quanta: 101
+  Avg Turnaround (TAT): 22.333
+  Avg Waiting   (WT):  16.833
+  Avg Response  (RPT): 16.833
+  Throughput (completed/elapsed): 0.1782
+  Max consecutive idle quanta (info): 1
+
+===== RUN 5 (seed=505, jobs=26) - HPF (non-preemptive) =====
+Created processes (sorted by arrival):
+Name  Arr  Serv  Prio
+  M      2     9    4
+  K     12     3    1
+  X     26     7    3
+  G     29    10    2
+  I     31     4    2
+  Q     31     6    1
+  B     33     8    3
+  P     33     5    2
+  S     33     3    2
+  A     35     4    3
+  R     38     1    3
+  C     39     7    3
+  Y     42     9    1
+  V     53    10    3
+  L     54     4    3
+  N     57     8    1
+  O     57     1    3
+  D     61    10    4
+  F     66    10    1
+  E     67     2    2
+  Z     72     1    2
+  U     78     3    2
+  J     80     1    2
+  H     83     7    3
+  W     87     6    3
+  T     89     8    2
+
+Time chart (100+ quanta, '-' = idle):
+--MMMMMMMMM-KKK--XXXXXXX--GGGGGGGGGGQQQQQQYYYYYYYYYIIIIPPPPPNNNNNNNNFFFFFFFFFFSSSEEZUUUJBBBBBBBBTTTTTTTT
+
+Per-run stats over processes that actually ran (start < 100):
+  Completed: 17
+  Elapsed quanta: 104
+  Avg Turnaround (TAT): 17.294
+  Avg Waiting   (WT):  11.588
+  Avg Response  (RPT): 11.588
+  Throughput (completed/elapsed): 0.1635
+  Max consecutive idle quanta (info): 2
+
+===== 5-RUN AVERAGES (HPF-NP) =====
+Avg of Avg TAT: 17.233
+Avg of Avg WT : 11.188
+Avg of Avg RPT: 11.188
+Avg Throughput: 0.1603
+=================================
+
+----- HPF (highest priority first) (preemptive) -----
+===== RUN 1 (seed=101, jobs=26) - HPF (preemptive) =====
+Created processes (sorted by arrival):
+Name  Arr  Serv  Prio
+  X      4     9    4
+  A      7     9    2
+  O      9     5    3
+  F     12     9    2
+  P     16     8    1
+  M     18     8    4
+  K     20     5    3
+  V     20     9    3
+  Q     25    10    3
+  H     26     7    3
+  N     29    10    4
+  U     45     7    2
+  Z     52     9    2
+  G     54     1    2
+  W     55     6    4
+  C     56     3    4
+  I     65     3    1
+  T     66     4    2
+  Y     66    10    3
+  J     76     3    2
+  S     76     9    2
+  L     79     3    3
+  D     91     5    2
+  E     91     2    1
+  B     96    10    3
+  R     97     1    4
+
+Time chart (100+ quanta, '-' = idle):
+--XXXAAAAAFAFAPPPPPPPPFAFAFFFFFOKVQHOKVQHOKUUUUUUUZZGZZZZZZZVQHIIITTTTYOKVJSJSJSSSSSSSQHYEEDDDDDLBOKVQHYLBVQHYLBVQHYBVQYBVQYBQYBYBYBBXXXXXX
+
+Per-run stats over processes that actually ran (start < 100):
+  Completed: 21
+  Elapsed quanta: 141
+  Avg Turnaround (TAT): 40.571
+  Avg Waiting   (WT):  34.048
+  Avg Response  (RPT): 5.143
+  Throughput (completed/elapsed): 0.1489
+  Max consecutive idle quanta (info): 2
+
+===== RUN 2 (seed=202, jobs=26) - HPF (preemptive) =====
+Created processes (sorted by arrival):
+Name  Arr  Serv  Prio
+  Q      3     9    1
+  X      8    10    4
+  L     11     5    1
+  N     11     2    3
+  A     14     7    3
+  F     24    10    4
+  I     30     5    1
+  P     32     8    1
+  E     35     3    1
+  V     40    10    2
+  H     52     3    2
+  J     52     5    4
+  S     52    10    3
+  Z     57     7    3
+  G     61     4    3
+  W     63     1    4
+  C     65     8    4
+  O     71     9    2
+  D     82     2    3
+  T     85    10    3
+  Y     85     9    2
+  M     89     5    3
+  U     90     6    3
+  B     92     2    1
+  K     93     2    2
+  R     94     1    4
+
+Time chart (100+ quanta, '-' = idle):
+--QQQQQQQQLQLLLLNANAAAAAAXFXFIIPIPEIPEIPEPPPPVVVVVVHVHVHVVSZGSZGSZGSZGOOOOOOOOOSZDSZYYYYYYYBBKYKYDTSZTSTSTSTTTTTTXFXFXFXFXFXFXFXF
+
+Per-run stats over processes that actually ran (start < 100):
+  Completed: 20
+  Elapsed quanta: 130
+  Avg Turnaround (TAT): 25.200
+  Avg Waiting   (WT):  18.850
+  Avg Response  (RPT): 3.100
+  Throughput (completed/elapsed): 0.1538
+  Max consecutive idle quanta (info): 2
+
+===== RUN 3 (seed=303, jobs=26) - HPF (preemptive) =====
+Created processes (sorted by arrival):
+Name  Arr  Serv  Prio
+  P      1     8    2
+  Y      4     8    4
+  A     21     5    4
+  D     26     9    1
+  J     28     7    2
+  Q     28     8    4
+  S     28     1    4
+  H     31     2    1
+  O     33     3    1
+  L     43    10    3
+  I     48     7    1
+  T     51     6    4
+  M     60     5    2
+  V     60     8    1
+  Z     62     5    4
+  X     65     8    4
+  K     66     9    4
+  G     68     7    4
+  W     71     6    4
+  C     74    10    3
+  E     79     7    2
+  B     88     4    3
+  U     88     5    4
+  F     89     1    2
+  R     91     1    4
+  N     93     4    2
+
+Time chart (100+ quanta, '-' = idle):
+-PPPPPPPPYYYYYYYY--AAAAADDDDDHDHODODODJJJJJJJLIIIIIIILLLLLVVVVVVVVMMMMMLCLCLCEEEEEEELCBFCBCNNNNBCBCCC
+
+Per-run stats over processes that actually ran (start < 100):
+  Completed: 16
+  Elapsed quanta: 103
+  Avg Turnaround (TAT): 12.062
+  Avg Waiting   (WT):  5.938
+  Avg Response  (RPT): 1.875
+  Throughput (completed/elapsed): 0.1553
+  Max consecutive idle quanta (info): 2
+
+===== RUN 4 (seed=404, jobs=26) - HPF (preemptive) =====
+Created processes (sorted by arrival):
+Name  Arr  Serv  Prio
+  F      1     2    4
+  J      4     9    4
+  Q      6     7    2
+  I     13     9    2
+  D     17     3    2
+  P     17     8    2
+  G     22    10    1
+  E     23     8    2
+  Y     23    10    3
+  A     28     6    2
+  M     31     2    1
+  U     33     4    1
+  B     37     6    1
+  K     39     6    3
+  R     41     1    4
+  H     57     8    4
+  S     57     2    1
+  Z     67     3    1
+  X     69     9    4
+  T     70     2    1
+  L     75     2    1
+  N     75     6    1
+  W     79     1    3
+  V     80     9    4
+  C     83     5    3
+  O     95     7    4
+
+Time chart (100+ quanta, '-' = idle):
+-FF-JJQQQQQQQIIIIDPIDPGGGGGGGGGMGMUUUBUBBBBBEAIDPEAIPEAIPSSEAIPEAPEZZZTTAPELNLNNNNNEYKWCYKCYKCYKCYKCYKYYYYJJJJJJJ
+
+Per-run stats over processes that actually ran (start < 100):
+  Completed: 21
+  Elapsed quanta: 113
+  Avg Turnaround (TAT): 27.476
+  Avg Waiting   (WT):  22.190
+  Avg Response  (RPT): 7.571
+  Throughput (completed/elapsed): 0.1858
+  Max consecutive idle quanta (info): 1
+
+===== RUN 5 (seed=505, jobs=26) - HPF (preemptive) =====
+Created processes (sorted by arrival):
+Name  Arr  Serv  Prio
+  M      2     9    4
+  K     12     3    1
+  X     26     7    3
+  G     29    10    2
+  I     31     4    2
+  Q     31     6    1
+  B     33     8    3
+  P     33     5    2
+  S     33     3    2
+  A     35     4    3
+  R     38     1    3
+  C     39     7    3
+  Y     42     9    1
+  V     53    10    3
+  L     54     4    3
+  N     57     8    1
+  O     57     1    3
+  D     61    10    4
+  F     66    10    1
+  E     67     2    2
+  Z     72     1    2
+  U     78     3    2
+  J     80     1    2
+  H     83     7    3
+  W     87     6    3
+  T     89     8    2
+
+Time chart (100+ quanta, '-' = idle):
+--MMMMMMMMM-KKK--XXXGGQQQQQQIPSGIYYYYYYYYYPSGIPSNNNNNNNNGFFFFFFFFFFIPEZUJGPEUGUGTGTGTTTTTTBXBXBXBXBBBB
+
+Per-run stats over processes that actually ran (start < 100):
+  Completed: 17
+  Elapsed quanta: 111
+  Avg Turnaround (TAT): 25.706
+  Avg Waiting   (WT):  20.000
+  Avg Response  (RPT): 6.118
+  Throughput (completed/elapsed): 0.1532
+  Max consecutive idle quanta (info): 2
+
+===== 5-RUN AVERAGES (HPF-P) =====
+Avg of Avg TAT: 26.203
+Avg of Avg WT : 20.205
+Avg of Avg RPT: 4.761
+Avg Throughput: 0.1594
+=================================
+
+========== Done ==========
